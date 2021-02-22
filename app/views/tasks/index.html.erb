@@ -1,0 +1,7 @@
+<!-- app/views/tasks/index.html.erb -->
+<ul>
+  <% @tasks.each do |task| %>
+    <!-- add the task and then the attribute name (title) from our schema -->
+    <li><%= task.title %></li>
+  <% end %>
+</ul>
